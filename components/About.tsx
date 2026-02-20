@@ -12,24 +12,25 @@ const About: React.FC = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-cyan-400">
+        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-emerald-400">
           About Me
         </h2>
 
-        <div className="space-y-6 text-slate-200 text-base md:text-lg leading-relaxed">
-          <motion.p
+        <div className="space-y-6 text-white text-base md:text-lg leading-relaxed">
+          <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <div>
-              <span className="text-yellow-400">👋 </span>
+            <p>
+              <span className="text-emerald-400">👋 </span>
               <span>Hello there!</span>
-            </div>
-
-            <span>I'm {personalInfo.name}, a Senior AI Full Stack Engineer with over 10 years of experience building scalable SaaS, fintech, and AI-driven applications. I specialize in modern JavaScript ecosystems (React, Next.js, TypeScript) and robust backend systems using Node.js and Python, with strong expertise in cloud-native architecture on AWS.</span>
-          </motion.p>
+            </p>
+            <p>
+              I'm <span className="text-emerald-400">{personalInfo.name}</span>, a Senior AI Full Stack Engineer with over 10 years of experience building scalable SaaS, fintech, and AI-driven applications. I specialize in modern JavaScript ecosystems (React, Next.js, TypeScript) and robust backend systems using Node.js and Python, with strong expertise in cloud-native architecture on AWS.
+            </p>
+          </motion.div>
 
           <motion.p
             initial={{ opacity: 0 }}

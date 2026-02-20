@@ -1,14 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { personalInfo } from '../constants.ts';
-import { GitHubIcon, LinkedInIcon, MailIcon, LeetCodeIcon, CodeforcesIcon } from './Icons.tsx';
 
 const Hero: React.FC = () => {
-  const iconVariants = {
-    hover: { scale: 1.2, rotate: 5, color: '#E62429' },
-    tap: { scale: 0.9 }
-  };
-  
   const scrollToProjects = () => {
     document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -16,7 +10,7 @@ const Hero: React.FC = () => {
   return (
     <>
       <motion.h1
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-slate-100 tracking-tight"
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-emerald-400 tracking-tight"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, type: 'spring' }}
@@ -24,7 +18,7 @@ const Hero: React.FC = () => {
         {personalInfo.name}
       </motion.h1>
       <motion.h2
-        className="mt-4 text-2xl md:text-4xl font-semibold gradient-text h-12"
+        className="mt-4 text-2xl md:text-4xl font-semibold text-white h-12"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}

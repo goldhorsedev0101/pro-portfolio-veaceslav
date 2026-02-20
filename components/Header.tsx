@@ -64,7 +64,7 @@ const Header: React.FC = () => {
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <motion.div
-              className="text-2xl font-bold cursor-pointer gradient-text"
+              className="text-2xl font-bold cursor-pointer text-emerald-400"
               onClick={() => scrollToSection('home')}
               whileHover={{ scale: 1.05 }}
             >
@@ -84,12 +84,12 @@ const Header: React.FC = () => {
                         onClick={() => scrollToSection(item.id)}
                         className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors duration-300 font-medium ${
                           isActive 
-                            ? 'text-cyan-400' 
-                            : 'text-slate-300 hover:text-white'
+                            ? 'text-emerald-400' 
+                            : 'text-white hover:text-emerald-400'
                         }`}
                         whileHover={{ y: -2 }}
                       >
-                        <Icon className={`w-5 h-5 ${isActive ? 'text-cyan-400' : ''}`} />
+                        <Icon className={`w-5 h-5 ${isActive ? 'text-emerald-400' : 'text-white'}`} />
                         <span>{item.label}</span>
                       </motion.button>
                     </li>
@@ -100,16 +100,16 @@ const Header: React.FC = () => {
               <li>
                 <motion.button
                   onClick={() => scrollToSection('resume')}
-                  className="flex items-center gap-2 px-4 py-2 rounded-lg text-slate-300 hover:text-white transition-colors duration-300 font-medium"
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg text-white hover:text-emerald-400 transition-colors duration-300 font-medium"
                   whileHover={{ y: -2 }}
                 >
-                  <DocumentIcon className="w-5 h-5" />
+                  <DocumentIcon className="w-5 h-5 text-white" />
                   <span>Resume</span>
                 </motion.button>
               </li>
             </ul>
             <div className="md:hidden">
-              <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-slate-300 z-50 relative">
+              <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-white z-50 relative">
                 {isMenuOpen ? <CloseIcon /> : <MenuIcon />}
               </button>
             </div>
@@ -132,9 +132,9 @@ const Header: React.FC = () => {
                   <li key={item.id}>
                     <button
                       onClick={() => scrollToSection(item.id)}
-                      className="flex items-center gap-3 text-3xl text-slate-300 hover:text-cyan-400 transition-colors duration-300 font-semibold"
+                      className="flex items-center gap-3 text-3xl text-white hover:text-emerald-400 transition-colors duration-300 font-semibold"
                     >
-                      <Icon className="w-8 h-8" />
+                      <Icon className="w-8 h-8 text-white" />
                       <span>{item.label}</span>
                     </button>
                   </li>
@@ -143,9 +143,9 @@ const Header: React.FC = () => {
               <li>
                 <button
                   onClick={() => scrollToSection('resume')}
-                  className="flex items-center gap-3 text-3xl text-slate-300 hover:text-cyan-400 transition-colors duration-300 font-semibold"
+                  className="flex items-center gap-3 text-3xl text-white hover:text-emerald-400 transition-colors duration-300 font-semibold"
                 >
-                  <DocumentIcon className="w-8 h-8" />
+                  <DocumentIcon className="w-8 h-8 text-white" />
                   <span>Resume</span>
                 </button>
               </li>

@@ -12,7 +12,7 @@ const Experience: React.FC = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <span className="text-yellow-400">Work Experience</span>
+        <span className="font-black text-emerald-400">Work Experience</span>
       </motion.h2>
 
       <div className="space-y-6">
@@ -30,7 +30,7 @@ const Experience: React.FC = () => {
                 <h3 className="text-xl md:text-2xl font-bold text-white mb-1">
                   {item.role}
                 </h3>
-                <p className="text-yellow-400 font-semibold mb-2">
+                <p className="font-black text-emerald-400 font-semibold mb-2">
                   {item.company}
                 </p>
               </div>
@@ -43,7 +43,7 @@ const Experience: React.FC = () => {
             <ul className="space-y-3 mt-4">
               {item.points.map((point, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="text-yellow-400 mt-1.5 flex-shrink-0">
+                  <span className="font-black text-emerald-400 mt-1.5 flex-shrink-0">
                     <svg className="w-2 h-2" viewBox="0 0 8 8" fill="currentColor">
                       <circle cx="4" cy="4" r="4" />
                     </svg>

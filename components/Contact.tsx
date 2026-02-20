@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
   const isError = status === 'error';
 
   return (
-    <div className="w-full px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto text-center overflow-hidden">
+    <div className="w-full px-4 sm:px-6 text-emerald-400 lg:px-8 max-w-3xl mx-auto text-center overflow-hidden">
       <motion.h2
         className="text-3xl sm:text-4xl font-bold mb-4"
         initial={{ opacity: 0, y: -20 }}
@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
-        Send Me a <span className="gradient-text">Message</span>
+        Send Me a Message
       </motion.h2>
       <motion.p
         className="text-base sm:text-lg text-slate-400 mb-8 sm:mb-12 px-2"

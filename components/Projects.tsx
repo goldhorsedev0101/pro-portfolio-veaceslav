@@ -76,13 +76,13 @@ const Projects: React.FC = () => {
   return (
     <>
       <motion.h2
-        className="text-4xl font-bold text-center mb-16"
+        className="text-4xl font-bold text-emerald-400 text-center mb-16"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
         variants={cardVariants}
       >
-        Featured <span className="gradient-text">Projects</span>
+        Featured Projects
       </motion.h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -124,7 +124,7 @@ const Projects: React.FC = () => {
 
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((tech, i) => (
-                  <span key={i} className="bg-slate-700 text-red-300 text-xs font-medium px-2.5 py-1 rounded-full">
+                  <span key={i} className="bg-slate-700 text-emerald-400 text-xs font-medium px-2.5 py-1 rounded-full">
                     {tech}
                   </span>
                 ))}

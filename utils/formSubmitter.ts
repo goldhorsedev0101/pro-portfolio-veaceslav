@@ -38,7 +38,6 @@ export const submitContactForm = async (
     const resultText = await response.text();
     return resultText;
   } catch (error) {
-    console.error("Error submitting form:", error);
     const errorMessage =
       error instanceof Error ? error.message : "An unknown error occurred.";
     return Promise.reject(
