@@ -1,13 +1,23 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FaReact, FaJs, FaNodeJs, FaPython, FaAws, FaDocker, FaBrain, FaCloud } from 'react-icons/fa';
 import { 
-  ReactIcon, NextJSIcon, VueIcon, AngularIcon,
-  TypeScriptIcon, JavaScriptIcon, PythonIcon, KotlinIcon,
-  SwiftIcon, ReactNativeIcon, FlutterIcon, NodeJSIcon,
-  ExpressJSIcon, NestJSIcon, DjangoIcon, GraphQLIcon,
-  PostgreSQLIcon, MongoDBIcon, RedisIcon, FirebaseIcon,
-  AWSIcon, AzureIcon, DockerIcon, AIIcon
-} from './Icons.tsx';
+  SiNextdotjs, 
+  SiVuedotjs, 
+  SiAngular, 
+  SiTypescript, 
+  SiKotlin, 
+  SiSwift, 
+  SiFlutter, 
+  SiExpress, 
+  SiNestjs, 
+  SiDjango, 
+  SiGraphql, 
+  SiPostgresql, 
+  SiMongodb, 
+  SiRedis, 
+  SiFirebase
+} from 'react-icons/si';
 
 interface TechItem {
   name: string;
@@ -16,35 +26,35 @@ interface TechItem {
 
 const technologies: TechItem[] = [
   // Row 1
-  { name: 'React', icon: ReactIcon },
-  { name: 'Next.js', icon: NextJSIcon },
-  { name: 'Vue.js', icon: VueIcon },
-  { name: 'Angular', icon: AngularIcon },
+  { name: 'React', icon: FaReact },
+  { name: 'Next.js', icon: SiNextdotjs },
+  { name: 'Vue.js', icon: SiVuedotjs },
+  { name: 'Angular', icon: SiAngular },
   // Row 2
-  { name: 'TypeScript', icon: TypeScriptIcon },
-  { name: 'JavaScript', icon: JavaScriptIcon },
-  { name: 'Python', icon: PythonIcon },
-  { name: 'Kotlin', icon: KotlinIcon },
+  { name: 'TypeScript', icon: SiTypescript },
+  { name: 'JavaScript', icon: FaJs },
+  { name: 'Python', icon: FaPython },
+  { name: 'Kotlin', icon: SiKotlin },
   // Row 3
-  { name: 'Swift', icon: SwiftIcon },
-  { name: 'React Native', icon: ReactNativeIcon },
-  { name: 'Flutter', icon: FlutterIcon },
-  { name: 'Node.js', icon: NodeJSIcon },
+  { name: 'Swift', icon: SiSwift },
+  { name: 'React Native', icon: FaReact },
+  { name: 'Flutter', icon: SiFlutter },
+  { name: 'Node.js', icon: FaNodeJs },
   // Row 4
-  { name: 'Express.js', icon: ExpressJSIcon },
-  { name: 'NestJS', icon: NestJSIcon },
-  { name: 'Django', icon: DjangoIcon },
-  { name: 'GraphQL', icon: GraphQLIcon },
+  { name: 'Express.js', icon: SiExpress },
+  { name: 'NestJS', icon: SiNestjs },
+  { name: 'Django', icon: SiDjango },
+  { name: 'GraphQL', icon: SiGraphql },
   // Row 5
-  { name: 'PostgreSQL', icon: PostgreSQLIcon },
-  { name: 'MongoDB', icon: MongoDBIcon },
-  { name: 'Redis', icon: RedisIcon },
-  { name: 'Firebase', icon: FirebaseIcon },
+  { name: 'PostgreSQL', icon: SiPostgresql },
+  { name: 'MongoDB', icon: SiMongodb },
+  { name: 'Redis', icon: SiRedis },
+  { name: 'Firebase', icon: SiFirebase },
   // Row 6
-  { name: 'AWS', icon: AWSIcon },
-  { name: 'Azure', icon: AzureIcon },
-  { name: 'Docker', icon: DockerIcon },
-  { name: 'AI/ML', icon: AIIcon },
+  { name: 'AWS', icon: FaAws },
+  { name: 'Azure', icon: FaCloud },
+  { name: 'Docker', icon: FaDocker },
+  { name: 'AI/ML', icon: FaBrain },
 ];
 
 const Skills: React.FC = () => {
