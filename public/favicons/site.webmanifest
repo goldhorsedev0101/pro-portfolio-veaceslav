@@ -1,0 +1,28 @@
+{
+  "name": "Veaceslav Smolnicov - Portfolio",
+  "short_name": "Hari",
+  "description": "Portfolio of Veaceslav Smolnicov - Full Stack Developer (Java, WebRTC, Spring, Angular).",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#010101",
+  "background_color": "#010101",
+  "orientation": "portrait-primary"
+}
