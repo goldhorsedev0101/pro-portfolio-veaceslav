@@ -131,16 +131,24 @@ export const projectsData: Project[] = [
     ]
   },
   {
+    title: "Praxis AI",
+    description: "Praxis AI is an AI platform that turns human experts into “digital twins” (AI versions of them) so their knowledge can be used 24/7 at scale. It’s mainly focused on education, enterprise training, and knowledge-heavy organizations.",
+    tech: ["TypeScript", "Next.js", "PHP", "Python", "Ruby on Rails", "GraphQL", "PostgreSQL", "Redis", "Elasticsearch", "LLM", "SOC2/FERPA/COPPA", "AWS", "CI/CD", "RESTful APIs"],
+    imageUrl: "./images/ai-praxis/Screenshot_1.jpg",
+    demoUrl: "https://praxis-ai.com/",
+    screenshots: [
+      "./images/ai-praxis/Screenshot_1.jpg",
+      "./images/ai-praxis/Screenshot_2.jpg",
+      "./images/ai-praxis/Screenshot_3.jpg",
+      "./images/ai-praxis/Screenshot_4.jpg",
+    ]
+  },
+  {
     title: "Shark Vision",
     description: "Shark Vision Technologies appears to be a technology services company offering a range of IT solutions for modern businesses, with an emphasis on AI‑powered systems such as smart surveillance with face recognition, insurance claim settlement solutions, machine learning services, and general software development including web and mobile applications and UI/UX design support.",
     tech: ["React", "Next.js", "Vue.js", "TailwindCSS", "PHP", "Python", "NestJS", "PostgreSQL", "n8n", "Make.com", "Angular", "MongoDB", "Docker", "REST APIs"],
     imageUrl: "./images/Sharkvision/Screenshot_1.jpg",
     demoUrl: "https://sharkvisionindia.com/",
-    githubUrl: "https://github.com/thughari/NationalScholarshipPortal-FrontEnd",
-    githubUrls: {
-      frontend: "https://github.com/thughari/NationalScholarshipPortal-FrontEnd",
-      backend: "https://github.com/thughari/National_Scholarship_Portal_Backend"
-    },
     screenshots: [
       "./images/Sharkvision/Screenshot_1.jpg",
       "./images/Sharkvision/Screenshot_2.jpg",
@@ -155,11 +163,6 @@ export const projectsData: Project[] = [
     tech: ["React", "Next.js", "Vue.js", "TailwindCSS", "PHP", "Python", "NestJS", "PostgreSQL", "AI Chatbots", "Voice Agents", "Make.com", "Angular", "MongoDB", "Docker", "Firebase", "REST APIs"],
     imageUrl: "./images/Tailiant/Screenshot_1.jpg",
     demoUrl: "https://www.talliant.com/",
-    githubUrl: "https://github.com/thughari/NationalScholarshipPortal-FrontEnd",
-    githubUrls: {
-      frontend: "https://github.com/thughari/NationalScholarshipPortal-FrontEnd",
-      backend: "https://github.com/thughari/National_Scholarship_Portal_Backend"
-    },
     screenshots: [
       "./images/Tailiant/Screenshot_1.jpg",
       "./images/Tailiant/Screenshot_2.jpg",
@@ -176,11 +179,6 @@ export const projectsData: Project[] = [
     tech: ["React", "TypeScript", "PHP", "Python", "NestJS", "PostgreSQL", "Microservices Architecture", "JWT", "Docker", "Firebase", "REST APIs"],
     imageUrl: "./images/SixT/Screenshot_1.jpg",
     demoUrl: "https://www.sixt.com/",
-    githubUrl: "https://github.com/thughari/NationalScholarshipPortal-FrontEnd",
-    githubUrls: {
-      frontend: "https://github.com/thughari/NationalScholarshipPortal-FrontEnd",
-      backend: "https://github.com/thughari/National_Scholarship_Portal_Backend"
-    },
     screenshots: [
       "./images/SixT/Screenshot_1.jpg",
       "./images/SixT/Screenshot_2.jpg",
@@ -195,11 +193,6 @@ export const projectsData: Project[] = [
     tech: ["React", "Next.js", "TypeScript", "Node.js", "Express", "NestJS", "PostgreSQL", "Bcrypt", "JWT", "SendGrid", "Stripe", "REST APIs"],
     imageUrl: "./images/mokum-taxi/Screenshot_1.jpg",
     demoUrl: "https://xn--mokumtaxi-z79d.nl/",
-    githubUrl: "https://github.com/thughari/NationalScholarshipPortal-FrontEnd",
-    githubUrls: {
-      frontend: "https://github.com/thughari/NationalScholarshipPortal-FrontEnd",
-      backend: "https://github.com/thughari/National_Scholarship_Portal_Backend"
-    },
     screenshots: [
       "./images/mokum-taxi/Screenshot_1.jpg",
       "./images/mokum-taxi/Screenshot_2.jpg",
@@ -215,16 +208,26 @@ export const projectsData: Project[] = [
     tech: ["React", "Next.js", "TypeScript", "Node.js", "Express", "NestJS", "PostgreSQL", "Python", "Selenium", "Pandas", "GPT", "REST APIs"],
     imageUrl: "./images/react-autodesk/Screenshot_1.jpg",
     demoUrl: "https://www.autodesk.com/",
-    githubUrl: "https://github.com/thughari/NationalScholarshipPortal-FrontEnd",
-    githubUrls: {
-      frontend: "https://github.com/thughari/NationalScholarshipPortal-FrontEnd",
-      backend: "https://github.com/thughari/National_Scholarship_Portal_Backend"
-    },
     screenshots: [
       "./images/react-autodesk/Screenshot_1.jpg",
       "./images/react-autodesk/Screenshot_2.jpg",
       "./images/react-autodesk/Screenshot_3.jpg",
       "./images/react-autodesk/Screenshot_4.jpg",
+    ]
+  },
+  {
+    title: "CryptoWzrd",
+    description: "CryptoWzrd is a crypto trading education and signal platform that provides structured courses, daily market analysis, and a private trading community to help retail traders learn and execute active trading strategies. It is mainly focused on beginner-to-intermediate cryptocurrency traders who want guided trade setups, a repeatable trading system, and lifetime access to educational content and real-time market insights.",
+    tech: ["React", "TypeScript", "Chart.js", "Node.js", "MongoDB", "Elasticsearch", "AWS", "Azure", "CI/CD", "REST APIs"],
+    imageUrl: "./images/ai-cryptowzard/Screenshot_1.jpg",
+    demoUrl: "https://cryptowzrd.com/",
+    screenshots: [
+      "./images/ai-cryptowzard/Screenshot_1.jpg",
+      "./images/ai-cryptowzard/Screenshot_2.jpg",
+      "./images/ai-cryptowzard/Screenshot_3.jpg",
+      "./images/ai-cryptowzard/Screenshot_4.jpg",
+      "./images/ai-cryptowzard/Screenshot_5.jpg",
+      "./images/ai-cryptowzard/Screenshot_6.jpg",
     ]
   },
 ];
